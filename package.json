@@ -1,0 +1,26 @@
+{
+  "name": "vue2tovue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "codemirror": "^5.65.12",
+    "codemirror-editor-vue3": "^2.2.0",
+    "element-plus": "^2.3.5",
+    "js-beautify": "^1.14.7",
+    "vue": "^3.2.47",
+    "vue-clipboard3": "^2.0.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
