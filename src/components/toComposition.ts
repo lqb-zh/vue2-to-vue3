@@ -1,3 +1,4 @@
+import jsBeautify from 'js-beautify';
 declare global {
   interface Window {
     Vue2ToCompositionApiVmBody: any
@@ -133,7 +134,6 @@ function Vue2ToCompositionApi(
       }
 
       // js-beautify init
-      const jsBeautify: any = require('js-beautify')
       const jsBeautifyOptions: any = {
         indent_size: 4, // 缩进
         indent_char: ' ',
